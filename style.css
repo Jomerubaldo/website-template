@@ -1,0 +1,13 @@
+.links {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+}
+
+a {
+  color: black;
+  font-size: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
