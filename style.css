@@ -1,13 +1,55 @@
-.links {
-  text-decoration: none;
-  list-style-type: none;
-  display: flex;
-  justify-content: flex-start;
-  gap: 100px;
+body {
+  background-image: url('https://th.bing.com/th/id/OIP.3ZWGcYiu1KI0OKhNxGuLpgHaEK?rs=1&pid=ImgDetMain');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-a {
-  color: black;
-  font-size: bold;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h2 {
+  color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+h2::after {
+  content: 'Creared By: Jomer Ubaldo';
+  color: white;
+  font-size: small;
+  display: block;
+}
+
+span {
+  color: blue;
+}
+
+li, a {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  padding: 25px;
+}
+
+a:hover {
+  color: yellow;
+}
+
+button {
+  border: 1px solid red;
+  border-radius: 25px;
+  width: 100px;
+  height: 40px;
+  background-color: red;
+  color: white;
 }
